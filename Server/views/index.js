@@ -19,7 +19,7 @@
 const {
 	ipcRenderer, shell
 } = require("electron");
-const LANG = require("../../language.json");
+const LANG = require("../../settings/language.json");
 let $stage;
 let logs = 0;
 
