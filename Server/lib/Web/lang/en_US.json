@@ -2,7 +2,7 @@
 	"__README__": "English table is not built yet due to the absence of my English skill. Please translate this if you are good at English.",
 
 	"GLOBAL": {
-		"GPL": "<div style='color: #666;'>Rule the words! KKuTu Online Copyright (C) {year} {author}({email addr.})<br>This program comes with ABSOLUTELY NO WARRANTY.<br>This is free software, and you are welcome to redistribute it under certain conditions.<br>For details visit the repository of this software: <a target='_blank' href='{url of the source code of this server}'>{url of the source code of this server}</a></div>",
+		"GPL": "<div style='color: #666;'>Rule the words! ShopKKuTu Online Copyright (C) 2024 Studio Moremi(support@studio-moremi.kro.kr)<br>This program comes with ABSOLUTELY NO WARRANTY.<br>This is free software, and you are welcome to redistribute it under certain conditions.<br>For details visit the repository of this software: <a target='_blank' href='https://github.com/Studio-Moremi/ShopKKuTu.git'>url of the source code of this server</a></div>",
 
 		"CREATOR":	"개발자 블로그",
 		"HOME":		"FA{home}",
@@ -78,8 +78,8 @@
 
 		"OPTS_gEXP": "획득 경험치",
 		"OPTS_hEXP": "분당 추가 경험치",
-		"OPTS_gMNY": "획득 핑",
-		"OPTS_hMNY": "분당 추가 핑",
+		"OPTS_gMNY": "획득 돈",
+		"OPTS_hMNY": "분당 추가 돈",
 
 		"GROUP_PIX": "글자 조각",
 		"GROUP_CNS": "소모품",
@@ -121,7 +121,8 @@
 		"withLine": "라인 아이디로 로그인",
 		"withInstagram": "인스타그램 아이디로 로그인",
 		"withSpotify": "Spotify 아이디로 로그인",
-		"login_kkutu": "글자로 놀자! 끄투 온라인을 이용하시려면 로그인을 해 주세요."
+		"login_kkutu": "글자로 놀자! 상점끄투 온라인을 이용하시려면 로그인을 해 주세요.",
+		"loginLegal": "글자로 놀자! 상점끄투 온라인에 로그인 하시면 스튜디오 모레미가 공지하는 <a target='_blank' href='https://www.notion.so/11a7d39cdcae80c1b38fd5924e04decd?pvs=4'>운영정책</a> 및 <a target='_blank' href='https://www.notion.so/599a439d3e0747d2983682f2e8bd265f?pvs=4'>개인정보처리방침</a>에 동의하는 것으로 간주합니다."
 	},
 	"loginfail": {
 		"title": "로그인 실패",
@@ -129,8 +130,8 @@
 		"login": "로그인"
 	},
 	"kkutu": {
-		"title": "글자로 놀자! 끄투 온라인",
-		"version": "2.5.1",
+		"title": "글자로 놀자! 상점끄투 온라인",
+		"version": "1.0.0",
 		
 		"meta_desc": "온라인 끝말잇기, 앞말잇기, 자음퀴즈, 십자말풀이, 타자 대결까지! 끄투에서 어휘력의 제왕이 되어 보세요.",
 		"meta_keys": "끄투,kkutu,끝말잇기,온라인,웹,쿵쿵따,영어끝말잇기,영어쿵쿵따,시리토리,끝말잇기사이트,자음퀴즈,초성퀴즈,자퀴,십자말풀이,가로세로,타자,타자연습,앞말잇기",
@@ -149,11 +150,11 @@
 
 		"websocketUnsupport": "본 게임은 Internet Explorer(10), 크롬(16), 파이어폭스(11), 오페라(12.1), 사파리(6) 이상의 버전에서 지원합니다!<br>브라우저를 업데이트해 주세요.",
 		"dictionarySupport": "사전 정보 제공:<a href='http://stdweb2.korean.go.kr/' target='_blank'>국립국어원 표준국어대사전</a>, <a href='http://wordnet.princeton.edu' target='_blank'>WordNet</a><br><label style='color: #777777;'>WordNet 3.0 Copyright 2006 by Princeton University. All rights reserved.</label>",
-		"sandbox": "샌드박스 :: SDBX",
-		"etcSupport": "도움:<a href='http://cafe.naver.com/sdbx' target='_blank'>샌드박스 :: SDBX</a>",
+		"sandbox": "스튜디오 모레미",
+		"etcSupport": "제작:<a href='https://discord.gg/eMrZFCk3Xa' target='_blank'>스튜디오 모레미</a>",
 		"welcome": "환영합니다.",
 		"welcomeTestServer": "테스트 서버에 접속했습니다. 본 서버는 특별한 공지 없이 폭발하거나 닫힐 수 있습니다.",
-		"loadRemain": "불러오는 중... 앞으로 ",
+		"loadRemain": " assets loading...",
 		"closed": "서버와의 연결이 종료되었습니다.",
 		"error": "연결 중 문제가 발생했습니다!",
 		"error_full": "서버 제한 인원을 초과했습니다... 잠시 후 접속해 주세요!!!",
@@ -164,7 +165,7 @@
 		"error_404": "입장 가능한 방을 찾을 수 없습니다. 새 방을 생성합니까?",
 		"error_405": "해당 사용자를 찾을 수 없습니다.",
 		"error_406": "강제 퇴장된 방에 다시 입장할 수 없습니다.",
-		"error_407": "핑이 부족합니다.",
+		"error_407": "돈이 부족합니다.",
 		"error_408": "다른 곳에서 해당 계정으로 접속하여 이 곳의 연결이 종료되었습니다.",
 		"error_409": "해당 계정은 이미 접속 중에 있습니다.",
 		"error_410": "관리자에 의해 게임에서 제외되었습니다.",
@@ -487,13 +488,13 @@
 
 		"gameResult": "게임 결과",
 		"scoreGain": "획득한 경험치",
-		"moneyGain": "획득한 핑",
+		"moneyGain": "획득한 돈",
 		"scoreOrigin": "기본 제공 경험치",
-		"moneyOrigin": "기본 제공 핑",
+		"moneyOrigin": "기본 제공 돈",
 		"bonusFrom_q": "아이템 장착 효과",
 		"bonusFrom_k": "오끄감 버프 효과",
 		"lvUp": "레벨 업!",
-		"ping": "핑",
+		"ping": "돈",
 		"making": "공사 중입니다! ㅠㅠ",
 		"robot": "끄투 봇",
 		"null": "(정보 없음)",
@@ -520,7 +521,7 @@
 		"saveReplay": "경기 저장",
 		"obtained": "아이템을 획득했습니다",
 		"obtainExp": "경험치를 획득했습니다",
-		"obtainMoney": "핑을 획득했습니다",
+		"obtainMoney": "돈을 획득했습니다",
 		"sureConsume": "정말 이 항목을 사용합니까?",
 
 		"dress": "프로필 관리",
@@ -627,18 +628,18 @@
 		"purchase": "구매",
 		"payback": "되팔기",
 		"paybackHelp": "Ctrl 키를 누른 상태에서 되팔 항목을 선택해 주세요.",
-		"surePayback": "정말 이 항목을 되팝니까? 되판 항목은 복구할 수 없습니다.\n예상 회수 핑: ",
+		"surePayback": "정말 이 항목을 되팝니까? 되판 항목은 복구할 수 없습니다.\n예상 회수 돈: ",
 		"painback": "항목을 되팔았습니다.",
-		"pingBefore": "현재 핑",
+		"pingBefore": "현재 돈",
 		"pingCost": "가격",
-		"pingAfter": "이후 핑",
+		"pingAfter": "이후 돈",
 		"moremiAfter": "착용 모습",
 		"alreadyGot": "<b style='color: red;'>이미 보유한 상품인 것 같습니다.</b>",
 		"surePurchase": "이 항목을 구매합니까?",
-		"notEnoughMoney": "핑이 부족합니다.",
+		"notEnoughMoney": "돈이 부족합니다.",
 		"purchased": "성공적으로 구매했습니다. 구매한 상품은 화면 왼쪽 아래의 [내 정보] > [프로필 관리] 단추를 눌러 확인할 수 있습니다.",
 
-		"okgExpl": "<h4><label style='color: #FFFF44;'>오늘도 끄투를 이용해 주셔서 감사합니다!</label></h4>끄투에서 사람들과 함께 게임 플레이 시간 10분을 달성할 때마다<br>경험치와 핑을 더욱 많이 얻을 수 있는 <label style='color: #FFFF44;'>오끄감 버프</label>를 획득할 수 있습니다!",
+		"okgExpl": "<h4><label style='color: #FFFF44;'>오늘도 끄투를 이용해 주셔서 감사합니다!</label></h4>끄투에서 사람들과 함께 게임 플레이 시간 10분을 달성할 때마다<br>경험치와 돈을 더욱 많이 얻을 수 있는 <label style='color: #FFFF44;'>오끄감 버프</label>를 획득할 수 있습니다!",
 		"okgNotice": "게임 플레이 시간 10분을 달성하여 오끄감 버프를 획득했습니다!",
 		"okgCurrent": "현재 오끄감 버프 중첩 (최대 18): ",
 		"okgExpired": "자정이 지나 오끄감 버프 중첩이 초기화되었습니다.",
